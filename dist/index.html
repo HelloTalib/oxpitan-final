@@ -1,0 +1,2420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Oxpitan</title>
+	<link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="tm-page">
+
+		<div id="navbar-top" class="tm-header uk-background-primary">
+			<div class="uk-navbar-container">
+				<div class="uk-container uk-container-large">
+					<nav uk-navbar>
+						<div class="uk-navbar-left">
+							<ul class="uk-navbar-nav">
+								<li><a href="mailto:needhelp@oxpitan.com">
+										<span class="uk-margin-right-small"
+											uk-icon="icon:mail"></span>
+										needhelp@oxpitan.com</a>
+								</li>
+								<li><a href="tel:885003266"><span
+											uk-icon="icon:receiver"></span>885003266</a>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-navbar-right uk-visible@m">
+							<ul class="uk-navbar-nav">
+								<li><a href="#">Our
+										Causes</a></li>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Become a Vulenteer</a></li>
+								<li><a href="#" uk-icon="facebook"></a></li>
+								<li><a href="#" uk-icon="instagram"></a></li>
+								<li><a href="#search-icon" uk-icon="search"
+										class="uk-navbar-toggle" uk-toggle></a>
+								</li>
+								<li>
+									<a href="#mini-cart"
+										class="uk-navbar-toggle" uk-toggle>
+										<span uk-icon="cart"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="tm-header-mobile uk-hidden@l">
+			<div uk-sticky animation="uk-animation-slide-top-large"
+				sel-target=".uk-navbar-container">
+				<div class="uk-navbar-container">
+					<nav uk-navbar>
+						<div class="uk-navbar-left">
+							<a href="#mobile-menu" class="uk-navbar-toggle"
+								uk-toggle>
+								<span class="uk-icon uk-navbar-toggle-icon"
+									uk-navbar-toggle-icon></span>
+							</a>
+						</div>
+						<div class="uk-navbar-center">
+							<a href="#" class="uk-navbar-item uk-logo">
+								<img src="./assets/img/logo-mobile.png" alt="">
+							</a>
+						</div>
+						<div class="uk-navbar-right">
+							<a href="#search-icon" class="uk-navbar-toggle"
+								uk-toggle>
+								<span class="uk-icon" uk-icon="search"></span>
+							</a>
+							<a href="#mini-cart" class="uk-navbar-toggle"
+								uk-toggle>
+								<span class="uk-icon" uk-icon="cart"></span>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div id="main-navbar" class="tm-header uk-visible@l">
+			<div uk-sticky media="@m" sel-target=".uk-navbar-container"
+				cls-active="uk-navbar-sticky"
+				animation="uk-animation-slide-top-large;">
+				<div class="uk-navbar-container">
+					<div class="uk-container uk-container-large">
+						<nav
+							uk-navbar="align:center; boundary:!.uk-navbar-container;">
+							<div class="uk-navbar-left">
+								<a href="#" class="uk-navbar-iten uk-logo">
+									<img src="./assets/img/logo.png" alt="">
+								</a>
+							</div>
+							<div class="uk-navbar-center">
+								<ul class="uk-navbar-nav" uk-nav>
+									<li class="uk-parent">
+										<a href="#">Home</a>
+										<div class="uk-navbar-dropdown">
+											<ul
+												class="uk-nav uk-navbar-dropdown-nav">
+												<li><a href="#">Home 1</a></li>
+												<li><a href="#">Home 2</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="uk-parent">
+										<a href="#">Our Causes</a>
+										<div class="uk-navbar-dropdown">
+											<ul
+												class="uk-nav uk-navbar-dropdown-nav">
+												<li><a href="#">Our Causes</a>
+												</li>
+												<li><a href="#">Causes
+														Single</a>
+													<ul class="uk-nav-sub">
+														<li><a href="#">Reveal
+																Upon Click</a>
+														</li>
+														<li><a href="#">Show One
+																Page</a></li>
+														<li><a href="#">Modal
+																Window Upon
+																Click</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="#">Events</a></li>
+									<li class="uk-parent">
+										<a href="#">Shop</a>
+										<div class="uk-navbar-dropdown">
+											<ul
+												class="uk-nav uk-navbar-dropdown-nav">
+												<li><a href="#">Product
+														Types</a>
+													<ul class="uk-nav-sub">
+														<li><a href="#">Simple
+																Product</a></li>
+														<li><a href="#">External
+																/ Affiliate
+																Product</a></li>
+														<li><a href="#">Grouped
+																Products</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">Shop
+														Templates</a>
+													<ul class="uk-nav-sub">
+														<li><a href="#">Shop
+																Standard</a>
+														</li>
+														<li><a href="#">Shop
+																standard 4
+																Columns</a></li>
+														<li><a href="#">Grouped
+																Products</a>
+														</li>
+													</ul>
+												</li>
+												<li><a href="#">Shop
+														Shortcodes</a>
+													<ul class="uk-nav-sub">
+														<li><a href="#">Products
+																By ID</a></li>
+														<li><a href="#">Products
+																By Sku</a></li>
+														<li><a href="#">Recent
+																Products</a>
+														</li>
+														<li><a href="#">Sale
+																roducts</a></li>
+														<li><a href="#">Top
+																Rated
+																Products</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="uk-parent">
+										<a href="#">News</a>
+										<div class="uk-navbar-dropdown">
+											<ul
+												class="uk-nav uk-navbar-dropdown-nav">
+												<li><a href="#">News</a></li>
+												<li><a href="#">News II</a></li>
+												<li><a href="#">Single</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="uk-parent">
+										<a href="#">Pages</a>
+										<div class="uk-navbar-dropdown">
+											<ul
+												class="uk-nav uk-navbar-dropdown-nav">
+												<li><a href="#">About Page</a>
+												</li>
+												<li><a href="#">Volunteer</a>
+												</li>
+												<li><a href="#">Become a
+														Volunteer</a></li>
+												<li><a href="#">Sponsors</a>
+												</li>
+												<li><a href="#">Our Gallery</a>
+												</li>
+												<li><a href="#">My Account</a>
+												</li>
+												<li><a href="#">Portfolio</a>
+												</li>
+												<li><a href="#">404 Page</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</div>
+							<div class="uk-navbar-right">
+								<div class="uk-navbar-item">
+									<div class="uk-margin-remove-last-child">
+										<a href="#"
+											class="uk-button uk-button-primary">Donation
+											Now</a>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="section-1"
+			class="uk-section uk-section-default uk-padding-remove-vertical"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false">
+			<div class="tm-grid-expand uk-child-width-1-1 uk-grid-margin"
+				uk-grid>
+				<div class="uk-width-1-1@m">
+					<div class="uk-margin uk-text-center"
+						uk-slideshow="animation:pull; velocity:1.5; autoplay:1; ratio:false;">
+						<div class="uk-position-relative">
+							<ul class="uk-slideshow-items"
+								uk-height-viewport="offset-top:false;min-height:500">
+								<li>
+									<div class="uk-position-cover">
+										<img uk-cover uk-img
+											data-src="./assets/img/slider/image-1.jpg"
+											alt="slider-1">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.2, 0 ,0; background-color:#000,#000">
+									</div>
+									<div
+										class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-padding">
+										<div
+											class="uk-panel uk-margin-remove-first-child uk-light">
+											<div class="uk-h3 uk-text-muted uk-margin-top uk-margin-remove-bottom"
+												uk-scrollspy-class="uk-animation-slide-right-medium">
+												Welcome to Oxpitan
+											</div>
+											<h2 class="uk-heading-xlarge uk-margin-remove-vertical"
+												uk-scrollspy-class>
+												New Hope for Near Future</h2>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover">
+										<img uk-cover uk-img
+											data-src="./assets/img/slider/image-2.jpg"
+											alt="slider-2">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.2, 0 ,0; background-color:#000,#000">
+									</div>
+									<div
+										class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-padding">
+										<div
+											class="uk-panel uk-margin-remove-first-child uk-light">
+											<div class="uk-h4 uk-text-muted uk-margin-top uk-margin-remove-bottom"
+												uk-scrollspy-class="uk-animation-slide-right-medium">
+												Welcome to Oxpitan
+											</div>
+											<h2 class="uk-heading-xlarge uk-margin-remove-vertical"
+												uk-scrollspy-class>
+												Lend The Helping Hand get
+												Beloved</h2>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover">
+										<img uk-img uk-cover
+											data-src="./assets/img/slider/image-3.jpg"
+											alt="slider-3">
+									</div>
+									<div class="uk-position-cover"
+										uk-slideshow-parallax="opacity:0.2, 0 ,0; background-color:#000,#000">
+									</div>
+									<div
+										class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-padding">
+										<div
+											class="uk-panel uk-margin-remove-first-child uk-light">
+											<div class="uk-h4 uk-text-muted uk-margin-top uk-margin-remove-bottom"
+												uk-scrollspy-class>
+												Welcome to Oxpitan.
+											</div>
+											<h2 class="uk-heading-xlarge uk-margin-remove-vertical"
+												uk-scrollspy-class>
+												Lend The Helping Hand get
+												Beloved</h2>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div
+								class="uk-visible@m uk-slidenav-container uk-position-bottom-right">
+								<a href="#"
+									uk-slidenav-previous="icon:arrow-left; ratio:2;"
+									uk-slideshow-item="previous"></a>
+								<a href="#"
+									uk-slidenav-next="icon:arrow-right; ratio:2;"
+									uk-slideshow-item="next"></a>
+							</div>
+							<div
+								class="uk-position-bottom-center uk-position-small">
+								<ul
+									class="uk-thumbnav uk-flex-nowrap uk-flex-center">
+									<li uk-slideshow-item="0">
+										<a href="#">
+											<img src="./assets/img/nav/image-1.jpg"
+												alt="">
+										</a>
+									</li>
+									<li uk-slideshow-item="1">
+										<a href="#">
+											<img src="./assets/img/nav/image-2.jpg"
+												alt="">
+										</a>
+									</li>
+									<li uk-slideshow-item="2">
+										<a href="#">
+											<img src="./assets/img/nav/image-3.jpg"
+												alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-2"
+			class="uk-section uk-section-default uk-padding-remove-vertical"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false">
+			<div class="tm-grid-expand uk-margin-small" uk-grid>
+				<div class="uk-grid-item-match uk-width-1-3@m">
+					<div
+						class="uk-tile uk-tile-secondary uk-tile-medium uk-flex uk-flex-center uk-flex-right@m uk-flex-left uk-text-center uk-text-left@m">
+						<div
+							class="uk-panel uk-width-small@m uk-width-1-1 uk-margin-large-right">
+							<h3 class="uk-h2 uk-margin" uk-scrollspy-class>
+								Hunger is stalking the globe
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="uk-grid-item-match uk-width-2-3@m uk-flex uk-flex-middle"
+					uk-scrollspy-class="uk-animation-slide-right-medium">
+					<div class="uk-panel uk-width-1-1@m">
+						<div class="tm-grid-expand uk-grid-margin" uk-grid>
+							<div class="uk-width-auto@m">
+								<div
+									class="uk-inline-clip uk-position-relative uk-transition-toggle uk-display-block">
+									<div
+										class="uk-position-relative uk-text-center uk-text-left@m">
+										<img src="./assets/img/feature/video.jpg"
+											alt="">
+										<div class="uk-visible@m">
+											<a class="uk-position-absolute uk-transform-center"
+												style="left: 50%; top: 50%"
+												href="#video-play"
+												uk-marker="icon:play-circle"
+												uk-toggle></a>
+										</div>
+									</div>
+									<div id="video-play"
+										class="uk-flex-top uk-modal"
+										uk-modal="">
+										<div
+											class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+											<button
+												class="uk-modal-close-outside uk-icon uk-close"
+												type="button" uk-close>
+											</button>
+											<iframe
+												src="https://player.vimeo.com/video/7979381?title=0&byline=0&portrait=0"
+												width="640" height="360"
+												frameborder="0"
+												allow="autoplay:false; fullscreen"
+												allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="uk-width-expand@m uk-text-center uk-text-left@m">
+								<div class="uk-panel uk-width-1-1 ">
+									<h3
+										class="uk-h2 uk-margin-top uk-margin-remove-bottom ">
+										We are here to support you every step
+										<br class="uk-visible@m"> of the way.
+									</h3>
+									<div
+										class="uk-margin-top uk-margin-remove-bottom">
+										Watch us how we take care of everyone
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-3"
+			class="uk-section-default uk-section uk-section-large uk-padding-remove-bottom"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-right-medium; delay:false;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-medium uk-grid-margin-medium"
+					uk-grid>
+					<div class="uk-width-1-2@l">
+						<div class="uk-margin uk-text-left"
+							uk-scrollspy-class="uk-animation-slide-left-medium">
+							<a href="#"
+								class="uk-inline-clip uk-transition-toggle">
+								<div class="uk-link-toggle">
+									<canvas height="1000" width="1080"></canvas>
+									<img class="" uk-img uk-cover
+										data-src="./assets/img/feature/image-1.jpg"
+										alt="">
+									<div
+										class="uk-overlay uk-overlay-primary uk-transition-fade uk-position-cover">
+									</div>
+									<div
+										class="uk-overlay uk-position-bottom-left uk-margin-remove-first-child uk-light">
+										<h2
+											class="uk-h1 uk-margin-remove-top uk-margin-remove-bottom">
+											Our Donation is hope for poor
+											children</h2>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="uk-width-1-2@l">
+						<div class="uk-margin uk-grid-margin uk-text-left"
+							uk-scrollspy-class>
+							<a href="#"
+								class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+								<div class="uk-link-toggle">
+									<canvas height="470" width="1080"></canvas>
+									<img uk-img uk-cover
+										data-src="./assets/img/feature/image-2.jpg"
+										alt="">
+									<div
+										class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
+									</div>
+									<div
+										class="uk-overlay uk-position-bottom-left uk-margin-remove-last-child uk-light">
+										<h2
+											class="uk-h2 uk-margin-remove-vertical">
+											Poor Children Education</h2>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="uk-margin uk-text-left" uk-scrollspy-class>
+							<div class="uk-child-width-1-1 uk-child-width-1-2@s uk-grid-medium"
+								uk-grid>
+								<div>
+									<div class="uk-margin uk-text-left">
+										<a href="#"
+											class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+											<div class="uk-link-toggle">
+												<canvas height="610"
+													width="650"></canvas>
+												<img uk-img uk-cover
+													data-src="./assets/img/feature/image-3.jpg"
+													alt="">
+												<div
+													class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
+												</div>
+												<div
+													class="uk-overlay uk-position-bottom-left uk-margin-remove-last-child uk-light">
+
+													<h2
+														class="uk-h2 uk-margin-remove-vertical">
+														Help Children in Africa
+													</h2>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div>
+									<div class="uk-margin uk-text-left">
+										<a href="#"
+											class="uk-inline-clip uk-transition-toggle uk-display-inline-block">
+											<div class="uk-link-toggle">
+												<canvas height="610"
+													width="650"></canvas>
+												<img uk-img uk-cover
+													data-src="./assets/img/feature/image-4.jpg"
+													alt="">
+												<div
+													class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
+
+												</div>
+												<div
+													class="uk-overlay uk-position-bottom-left uk-margin-remove-last-child uk-light">
+													<h2
+														class="uk-h2 uk-margin-remove-vertical">
+														More charity better
+														lives</h2>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-4"
+			class="uk-section-default uk-margin-remove-vertical"
+			uk-scrollspy="cls: uk-animation-slide-bottom-small; target:div > .uk-card; delay: 150">
+			<div class="uk-section uk-section-large uk-background-norepeat uk-background-cover uk-background-position-center"
+				uk-img data-src="./assets/img/bg.jpg">
+				<div class="uk-container uk-container-large">
+					<div class="tm-grid-expand uk-grid-margin uk-width-1-1 uk-flex uk-flex-center"
+						uk-grid>
+						<div class="uk-panel uk-width-1-1@m">
+							<h2
+								class="uk-h1 uk-margin-auto uk-margin-remove-bottom uk-text-center uk-width-xlarge">
+								We
+								Believe that We can Save <br
+									class="uk-visible@m"> More Lifes with you
+							</h2>
+							<div
+								class="uk-margin uk-text-center uk-text-primary">
+								Stay Updated</div>
+						</div>
+					</div>
+					<div class="uk-margin-large-top">
+						<div class="uk-margin-large-top">
+							<div class="tm-grid-expand uk-grid-margin-large uk-child-width-1-4@m uk-flex uk-flex-center uk-flex-middle"
+								uk-grid>
+								<div>
+									<div
+										class="uk-card uk-card-body uk-card-default uk-card-hover uk-transition-toggle uk-display-block uk-text-center uk-margin-remove-first-child">
+										<div class="uk-card-media-top">
+											<img src="./assets/img/icon/hope.png"
+												alt="">
+										</div>
+										<h3
+											class="uk-margin-small-top uk-card-title">
+											Hope</h3>
+										<p>Lorem ipsum dolor sit amet tempor.
+										</p>
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-default uk-card-body uk-card-hover uk-transition-toggle uk-display-block uk-text-center uk-margin-remove-first-child">
+										<div class="uk-card-media-top">
+											<img src="./assets/img/icon/prayers.png"
+												alt="">
+										</div>
+										<h3
+											class="uk-card-title uk-margin-small-top">
+											Prayers</h3>
+										<p>Lorem ipsum dolor sit amet tempor.
+										</p>
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-default uk-card-body uk-card-hover uk-transition-toggle uk-display-block uk-text-center">
+										<div class="uk-card-media-top">
+											<img src="./assets/img/icon/peace.png"
+												alt="">
+										</div>
+										<h3
+											class="uk-card-title uk-margin-small-top">
+											Peace</h3>
+										<p>Lorem ipsum dolor sit amet tempor.
+										</p>
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-default uk-card-body uk-card-hover uk-transition-toggle uk-display-block uk-text-center">
+										<div class="uk-card-media-top">
+											<img src="./assets/img/icon/donation.png"
+												alt="">
+										</div>
+										<h3
+											class="uk-card-title uk-margin-small-top">
+											Donation</h3>
+										<p>Lorem ipsum dolor sit amet tempor.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="uk-margin-large uk-text-center">
+							<a href="#"
+								class="uk-button uk-button-primary">Donate
+								Now</a>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section id="section-5" class="uk-section uk-section-default"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:false;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-large uk-child-width-1-2@m uk-grid-match uk-margin"
+					uk-grid>
+					<div class="uk-grid-item-match uk-flex-middle">
+						<div class="uk-panel uk-width-1-1">
+							<div
+								class="uk-panel uk-margin-remove-first-child uk-margin-large uk-width-2xlarge@m uk-margin-auto uk-text-center uk-text-left@m">
+								<h2 class="uk-heading-small uk-width-2xlarge uk-margin-auto uk-heading-line uk-margin-top uk-margin-remove-bottom"
+									uk-scrollspy-class>
+									<span>Fundraising for the people and causes
+										you care
+										about</span>
+								</h2>
+								<div class="uk-panel uk-margin-top uk-margin-remove-bottom"
+									uk-scrollspy-class>
+									<a href="#"
+										class="uk-button uk-button-primary">start
+										donation</a>
+								</div>
+								<div
+									class="uk-panel uk-margin-large-top uk-margin-remove-bottom">
+									<div class="tm-grid-expand uk-child-width-1-2 uk-grid-divider uk-grid-margin"
+										uk-grid>
+										<div>
+											<div class="uk-panel uk-margin-top uk-text-center uk-margin-remove-first-child"
+												uk-scrollspy-class>
+												<img src="./assets/img/icon/goal.png"
+													alt="">
+												<h3
+													class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+													997,846
+												</h3>
+												<div
+													class=" uk-margin-top uk-margin-remove-bottom uk-text-primary">
+													raised 6,388 people in 7
+													days</div>
+
+											</div>
+
+										</div>
+										<div>
+											<div class="uk-panel uk-margin-top uk-text-center uk-margin-remove-first-child"
+												uk-scrollspy-class>
+												<img src="./assets/img/icon/donation-2.png"
+													alt="">
+												<h3
+													class="uk-h2 uk-margin-top uk-margin-remove-bottom">
+													87675
+												</h3>
+												<div
+													class=" uk-margin-top uk-margin-remove-bottom uk-text-primary">
+													volunteers are available to
+													help you</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="uk-grid-item-match">
+						<div class="uk-tile uk-tile-primary Uk-flex-middle"
+							uk-scrollspy-class="uk-animation-slide-right-medium">
+							<div uk-slider="autoplay:1;">
+								<div class="uk-position-relative">
+									<div class="uk-slider-container uk-light">
+										<ul
+											class="uk-slider-items uk-child-width-1-1">
+											<li>
+												<h1 style="font-size: 4em;"
+													class="uk-margin-top uk-margin-remove-bottom">
+													&#8220</h1>
+												<h3
+													class="uk-h2 uk-margin-remove-vertical">
+													Every man must decide
+													whether he will walk in the
+													light of creative
+													altruism or
+													in the darkness of
+													destructive selfishness.
+												</h3>
+												<div
+													class=" uk-h4 uk-margin-large-top uk-margin-remove-bottom">
+													James Garrity, CEO
+												</div>
+											</li>
+											<li>
+												<h1 style="font-size: 4em;"
+													class="uk-margin-top uk-margin-remove-bottom">
+													&#8220</h1>
+												<h3
+													class="uk-h2 uk-margin-remove-vertical">
+													The small charity that comes
+													from the heart is better
+													than the great charity
+													that comes from the head.
+												</h3>
+												<div
+													class=" uk-h4 uk-margin-large-top uk-margin-remove-bottom">
+													Rishi Teneja, Employee
+													codesolution
+												</div>
+											</li>
+											<li>
+												<h1 style="font-size: 4em;"
+													class="uk-margin-top uk-margin-remove-bottom">
+													&#8220</h1>
+												<h3
+													class="uk-h2 uk-margin-remove-vertical">
+													Charity begins at home, but
+													should not end there.
+												</h3>
+												<div
+													class=" uk-h4 uk-margin-large-top uk-margin-remove-bottom">
+													Lan Holland , JR
+												</div>
+											</li>
+											<li>
+												<h1 style="font-size: 4em;"
+													class="uk-margin-top uk-margin-remove-bottom">
+													&#8220</h1>
+												<h3
+													class="uk-h2 uk-margin-remove-vertical">
+													It is a denial of justice
+													not to stretch out a helping
+													hand to the fallen that
+													is the common right of
+													humanity.
+
+												</h3>
+												<div
+													class=" uk-h4 uk-margin-large-top uk-margin-remove-bottom">
+													Seneca the Elder, CEO
+												</div>
+											</li>
+											<li>
+												<h1 style="font-size: 4em;"
+													class="uk-margin-top uk-margin-remove-bottom">
+													&#8220</h1>
+												<h3
+													class="uk-h2 uk-margin-remove-vertical">
+													The charitable give out the
+													door and God puts it back
+													through the window.
+												</h3>
+												<div
+													class=" uk-h4 uk-margin-large-top uk-margin-remove-bottom">
+													Charles Caleb Colton,
+													Employee codesolution
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<ul
+									class="uk-slider-nav uk-dotnav uk-flex-center uk-margin">
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="section-6" class="uk-section uk-section-default"
+			uk-scrollspy="target:div > .uk-card; cls:uk-animation-slide-bottom-medium; delay:150;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-margin-remove-bottom uk-child-width-1-1"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<h2
+							class="uk-h1 uk-margin-xlarge uk-margin-remove-bottom uk-text-center">
+							Latest Causes
+						</h2>
+						<div
+							class="uk-panel uk-text-primary uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
+							Help us now</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-margin-large uk-container uk-container-xlarge">
+				<div class="tm-grid-expand uk-child-width-1-1 uk-grid-small"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<div class="uk-margin uk-text-center">
+							<div class="uk-margin uk-child-width-1-1 uk-grid-large uk-child-width-1-2@s uk-child-width-1-3@m"
+								uk-grid>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-1.jpg"
+													height="400" width="100%"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-success">
+												<div class="uk-progress-bar"
+													style="width: 68%;">68%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $605
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $890
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">Clean Water
+													Issues</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem
+												architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-2.jpg"
+													width="100%" height="400"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-warning">
+												<div class="uk-progress-bar"
+													style="width: 80%;">80%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $6079
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $7599
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">Healthy Food for
+													All</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem
+												architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-3.jpg"
+													width="100%" height="400"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-danger">
+												<div class="uk-progress-bar"
+													style="width: 97%;">97%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $2390
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $2463
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">Help the Eco
+													System</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem
+												architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-4.jpg"
+													width="100%" height="400"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-warning">
+												<div class="uk-progress-bar"
+													style="width: 81%;">81%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $1253
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $1548
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">They Want to
+													Study</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-5.jpg"
+													width="100%" height="400"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-success">
+												<div class="uk-progress-bar"
+													style="width: 33%;">33%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $296
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $898
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">Save Poor
+													Childrens</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div>
+									<div
+										class="uk-card uk-card-hover uk-card-small uk-card-default">
+										<div class="uk-card-media">
+											<div
+												class="uk-inline-clip uk-transition-toggle">
+												<img data-src="./assets/img/causes/image-6.jpg"
+													width="100%" height="400"
+													uk-img alt="">
+												<div
+													class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+													<a href="#"
+														class="uk-button uk-button-primary">Donate
+														Now</a>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-body">
+											<div id="js-progressbar" value="10"
+												max="100"
+												class="uk-progress  uk-progress-striped uk-progress-danger">
+												<div class="uk-progress-bar"
+													style="width: 87%;">87%
+												</div>
+											</div>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<div class="uk-grid uk-grid-small uk-child-width-1-2 uk-grid-divider uk-flex uk-flex-middle"
+													data-uk-grid>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/raised.png);"></span>
+														Raised: $6825
+													</div>
+													<div>
+														<span
+															class="uk-icon uk-icon-image"
+															style="background-image:url(./assets/img/icon/goal-1.png);"></span>
+														Goal: $7845
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="uk-card-footer">
+											<h3
+												class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+												<a class="uk-link-reset"
+													href="#">Need Educations</a>
+											</h3>
+											<p
+												class="uk-text-small uk-text-muted uk-text-center">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Et
+												aliquid perferendis
+												consequuntur! Similique,
+												voluptatem architecto!</p>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Read
+													More</a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-7" class="uk-section uk-section-default"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-left-medium; delay:150;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-medium uk-child-width-1-2@m uk-margin-remove-bottom uk-grid-match"
+					uk-grid>
+					<div>
+						<div class="uk-margin uk-text-left">
+							<div class="uk-panel uk-width-1-1">
+								<!-- <div
+									class="uk-divider-small uk-text-left@m uk-text-center">
+								</div> -->
+								<h2 class="uk-heading-small uk-margin-small uk-width-2xlarge@l uk-margin-auto uk-text-left@m uk-text-center"
+									uk-scrollspy-class>
+									Give a helping hand for homeless childrens
+								</h2>
+								<div class="uk-margin-top uk-margin-remove-bottom"
+									uk-scrollspy-class>
+									<div class="tm-grid-expand uk-grid-small uk-child-width-1-3@s uk-grid-margin-top"
+										uk-grid>
+										<div>
+											<div
+												class="uk-card uk-card-body uk-padding-top uk-card-default uk-card-hover uk-transition-toggle uk-display-block uk-text-center uk-margin-remove-first-child">
+												<div class="uk-card-media-top">
+													<img src="./assets/img/icon/hope-1.png"
+														alt="">
+												</div>
+												<div
+													class="uk-margin-remove-vertical">
+													<h3 class="uk-h2">Hope</h3>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div
+												class="uk-card uk-card-body uk-padding-top uk-card-default uk-card-hover uk-transition-toggle uk-display-block uk-text-center uk-margin-remove-first-child">
+												<div class="uk-card-media-top">
+													<img src="./assets/img/icon/water.png"
+														alt="">
+												</div>
+												<div
+													class="uk-margin-remove-vertical">
+													<h3 class="uk-h2">Water</h3>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div
+												class="uk-card uk-card-body uk-padding-top uk-card-default uk-card-hover uk-transition-toggle uk-display-block uk-text-center uk-margin-remove-first-child">
+												<div class="uk-card-media-top">
+													<img src="./assets/img/icon/medical.png"
+														alt="">
+												</div>
+												<div
+													class="uk-margin-remove-vertical">
+													<h3 class="uk-h2">Medical
+													</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tm-grid-expand uk-child-width-1-1 uk-margin"
+										uk-grid>
+										<div
+											class="uk-width-1-1@m uk-first-column">
+											<div class="uk-margin">
+												<div class="uk-child-width-1-1 uk-grid-match uk-grid"
+													uk-grid="">
+													<div
+														class="uk-first-column">
+														<div
+															class="uk-panel uk-width-1-1 uk-margin-remove-first-child">
+															<img width="600"
+																src="./assets/img/feature/image-5.jpg"
+																alt="">
+															<h3
+																class="uk-margin-top uk-margin-remove-bottom">
+																Charity
+																activities are
+																taken place
+																around the world
+															</h3>
+															<div
+																class="uk-h4 uk-text-primary uk-margin-small-top uk-margin-remove-bottom">
+																Donate us Now
+															</div>
+															<div
+																class="uk-panel uk-margin-top uk-margin-remove-bottom">
+																Aliq is notm
+																hendr erit a
+																augue insu image
+																pellen tes que
+																id erat quis
+																simply
+																free text
+																sollicitud.
+																Lorem ipsum
+																dolor sit not
+																amet,
+																consectetur
+																adipiscing
+																ullam blandit
+																simply free text
+																hendrerit
+																faucibus
+																suspendisse.
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="uk-text-center"
+							uk-scrollspy-class="uk-animation-slide-right-medium">
+							<div class="tm-grid-expand uk-child-width-1-1 uk-grid-small uk-grid"
+								uk-grid>
+								<div>
+									<div class="uk-inline">
+										<img src="./assets/img/form.jpg" alt=""
+											style="height: 855px;">
+										<div
+											class="uk-overlay-default  uk-position-cover">
+										</div>
+										<div
+											class="uk-overlay uk-position-center uk-padding-large">
+											<h2
+												class="uk-h1 uk-margin-top uk-margin-remove-bottom">
+												Become A Volunteer
+											</h2>
+											<div
+												class="uk-panel uk-text-meta uk-text-primary uk-margin-bottom">
+												<p>join us now</p>
+											</div>
+											<form action="#"
+												class="uk-form uk-pane uk-margin-small">
+												<input type="text"
+													class="uk-input uk-form-large"
+													name="name" id="name"
+													placeholder="Full Name *"
+													required>
+												<input type="mail"
+													class="uk-input uk-form-large"
+													name="email" id="email"
+													placeholder="Emaill Address *"
+													required>
+												<input type="number"
+													class="uk-input uk-form-large"
+													name="phone" id="phone"
+													placeholder="Phone Number">
+												<input type="text"
+													class="uk-input uk-form-large"
+													name="address" id="address"
+													placeholder="Address">
+												<input type="text"
+													class="uk-input uk-form-large"
+													name="occupation"
+													id="occupation"
+													placeholder="Occupation">
+												<textarea class="uk-textarea"
+													rows="5" maxlength="6"
+													placeholder="Message"></textarea>
+											</form>
+											<div
+												class="uk-margin-top uk-margin-remove-bottom">
+												<a href="#"
+													class="uk-button uk-button-primary">Send</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-8" class="uk-section uk-section-default"
+			uk-scrollspy="target:li > .uk-card; cls: uk-animation-slide-bottom-medium; delay:150;">
+			<div class="uk-container uk-container-large">
+				<div class="uk-margin-remove-bottom tm-grid-expand uk-child-width-1-1"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<h2
+							class="uk-h1 uk-margin-xlarge uk-margin-remove-bottom uk-text-center">
+							Our Volunteers</h2>
+						<div
+							class="uk-panel uk-text-primary uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
+							MEET PROFESIONALS</div>
+					</div>
+				</div>
+				<div class="uk-margin-large uk-container uk-container-xlarge">
+					<div
+						class="tm-grid-expand uk-child-width-1-1 uk-grid-small">
+						<div class="uk-width-1-1@m">
+							<div class="uk-margin uk-text-center"
+								uk-slider="autoplay:1;">
+								<div class="uk-position-relative">
+									<div
+										class="uk-slider-container uk-margin-small">
+										<ul class="uk-slider-items uk-grid-small uk-margin-large uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m"
+											uk-grid>
+											<li>
+												<div class="uk-margin-small">
+													<div
+														class="uk-card uk-card-hover uk-card-small uk-card-default">
+														<div
+															class="uk-card-media">
+															<div
+																class="uk-inline-clip uk-transition-toggle">
+																<img data-src="./assets/img/volunteers/image-3.jpg"
+																	width="400"
+																	height="400"
+																	uk-img
+																	alt="">
+																<div
+																	class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																	<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																		uk-grid>
+																		<div
+																			class="uk-width-expand uk-text-small">
+																			Follow
+																			Me
+																		</div>
+																		<div
+																			class="uk-width-auto uk-text-right">
+																			<a href="#"
+																				uk-tooltip="title: Twitter"
+																				class=" uk-margin-small-right uk-icon-link"
+																				uk-icon="icon:twitter; ratio: 0.8"></a>
+																			<a href="#"
+																				uk-tooltip="title: Instagram"
+																				class=" uk-margin-small-right uk-icon-link"
+																				uk-icon="icon:instagram; ratio: 0.8"></a>
+																			<a href="#"
+																				uk-tooltip="title: Pinterest"
+																				class=" uk-margin-small-right uk-icon-link"
+																				uk-icon="icon:pinterest; ratio: 0.8"></a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div
+															class="uk-card-body">
+															<h3
+																class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+																Mauro Biello
+															</h3>
+															<p
+																class="uk-text-small uk-text-muted uk-text-center">
+																Co Founder</p>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div
+													class="uk-card uk-card-hover uk-card-small uk-card-default">
+													<div class="uk-card-media">
+														<div
+															class="uk-inline-clip uk-transition-toggle">
+															<img data-src="./assets/img/volunteers/image-1.jpg"
+																width="400"
+																height="400"
+																uk-img alt="">
+															<div
+																class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																	uk-grid>
+																	<div
+																		class="uk-width-expand uk-text-small">
+																		Follow
+																		Me
+																	</div>
+																	<div
+																		class="uk-width-auto uk-text-right">
+																		<a href="#"
+																			uk-tooltip="title: Twitter"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:twitter; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Instagram"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:instagram; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Pinterest"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:pinterest; ratio: 0.8"></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="uk-card-body">
+														<h3
+															class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+															Jhon Herdman</h3>
+														<p
+															class="uk-text-small uk-text-muted uk-text-center">
+															Secretery</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div
+													class="uk-card uk-card-hover uk-card-small uk-card-default">
+													<div class="uk-card-media">
+														<div
+															class="uk-inline-clip uk-transition-toggle">
+															<img data-src="./assets/img/volunteers/image-2.jpg"
+																width="400"
+																height="400"
+																uk-img alt="">
+															<div
+																class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																	uk-grid>
+																	<div
+																		class="uk-width-expand uk-text-small">
+																		Follow
+																		Me
+																	</div>
+																	<div
+																		class="uk-width-auto uk-text-right">
+																		<a href="#"
+																			uk-tooltip="title: Twitter"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:twitter; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Instagram"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:instagram; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Pinterest"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:pinterest; ratio: 0.8"></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="uk-card-body">
+														<h3
+															class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+															Fernando Garcia</h3>
+														<p
+															class="uk-text-small uk-text-muted uk-text-center">
+															Team Leader</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div
+													class="uk-card uk-card-hover uk-card-small uk-card-default">
+													<div class="uk-card-media">
+														<div
+															class="uk-inline-clip uk-transition-toggle">
+															<img data-src="./assets/img/volunteers/image-4.jpg"
+																width="400"
+																height="400"
+																uk-img alt="">
+															<div
+																class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																	uk-grid>
+																	<div
+																		class="uk-width-expand uk-text-small">
+																		Follow
+																		Me
+																	</div>
+																	<div
+																		class="uk-width-auto uk-text-right">
+																		<a href="#"
+																			uk-tooltip="title: Twitter"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:twitter; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Instagram"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:instagram; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Pinterest"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:pinterest; ratio: 0.8"></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="uk-card-body">
+														<h3
+															class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+															Micheal Perkins</h3>
+														<p
+															class="uk-text-small uk-text-muted uk-text-center">
+															Vulenteer</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div
+													class="uk-card uk-card-hover uk-card-small uk-card-default">
+													<div class="uk-card-media">
+														<div
+															class="uk-inline-clip uk-transition-toggle">
+															<img data-src="./assets/img/volunteers/image-5.jpg"
+																width="400"
+																height="400"
+																uk-img alt="">
+															<div
+																class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																	uk-grid>
+																	<div
+																		class="uk-width-expand uk-text-small">
+																		Follow
+																		Me
+																	</div>
+																	<div
+																		class="uk-width-auto uk-text-right">
+																		<a href="#"
+																			uk-tooltip="title: Twitter"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:twitter; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Instagram"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:instagram; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Pinterest"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:pinterest; ratio: 0.8"></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="uk-card-body">
+														<h3
+															class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+															James Pantemis</h3>
+														<p
+															class="uk-text-small uk-text-muted uk-text-center">
+															Co Founder</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div
+													class="uk-card uk-card-hover uk-card-small uk-card-default">
+													<div class="uk-card-media">
+														<div
+															class="uk-inline-clip uk-transition-toggle">
+															<img data-src="./assets/img/volunteers/image-6.jpg"
+																width="400"
+																height="400"
+																uk-img alt="">
+															<div
+																class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+																<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle"
+																	uk-grid>
+																	<div
+																		class="uk-width-expand uk-text-small">
+																		Follow
+																		Me
+																	</div>
+																	<div
+																		class="uk-width-auto uk-text-right">
+																		<a href="#"
+																			uk-tooltip="title: Twitter"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:twitter; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Instagram"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:instagram; ratio: 0.8"></a>
+																		<a href="#"
+																			uk-tooltip="title: Pinterest"
+																			class=" uk-margin-small-right uk-icon-link"
+																			uk-icon="icon:pinterest; ratio: 0.8"></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="uk-card-body">
+														<h3
+															class="uk-margin-small-bottom uk-margin-remove-adjacent uk-text-bold uk-text-center">
+															Steven Caldwell</h3>
+														<p
+															class="uk-text-small uk-text-muted uk-text-center">
+															Vulenteer</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-9"
+			class="uk-section uk-section-secondary uk-section-large"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:100;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-margin-remove-bottom uk-child-width-1-1"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<h2 class="uk-h1 uk-margin-xlarge uk-margin-remove-bottom uk-text-center"
+							uk-scrollspy-class>
+							Our fingerprints on the lives <br
+								class="uk-visible@m"> we touch never fade
+						</h2>
+						<div class="uk-margin-top uk-text-center uk-margin-remove-bottom"
+							uk-scrollspy-class>
+							<a href="#"
+								class="uk-button uk-button-primary">Donate
+								Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-11"
+			class="uk-section uk-section-default uk-section-large uk-padding-remove-bottom"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium;">
+			<div class="uk-container uk-container-large">
+				<div class="uk-flex uk-flex-center">
+					<div class="uk-panel uk-width-1-1">
+						<div class="uk-margin uk-margin-remove-first-child">
+							<h1 class="uk-heading-medium uk-margin-remove-bottom uk-width-1-1 uk-text-center"
+								uk-scrollspy-class>
+								Recent Blog Posts</h1>
+							<div class="uk-margin-top uk-margin-remove-bottom uk-text-primary uk-text-center"
+								uk-scrollspy-class>
+								News and
+								Updates</div>
+						</div>
+					</div>
+				</div>
+				<div class="tm-grid-expand uk-child-width-1-2@m uk-grid-margin"
+					uk-grid>
+					<div>
+						<div class="uk-inline-clip"
+							uk-scrollspy-class="uk-animation-slide-left-medium">
+							<img height="200" uk-img
+								data-src="./assets/img/feature/image-6.jpg"
+								alt="">
+							<h3
+								class="uk-margin-small-top uk-margin-remove-bottom">
+								<a class="uk-link-reset" href="#">
+									A Place Where Start New Life With Peace
+								</a>
+							</h3>
+							<div class="uk-text-meta uk-margin-small-top">
+								<a href="#" class="uk-link">Fashion</a>,
+								<a href="#" class="uk-link">Movies</a> .
+								<a href="#" class="uk-link">October 15, 2020</a>
+							</div>
+							<div class="uk-panel uk-margin-top">
+								<p>It is a well-known fact that when any
+									discussion
+									on lead generation takes place,
+									quality conquers over the measure. Though it
+									is
+									clearly known fact that people
+									do not like</p>
+							</div>
+							<div class="uk-margin-top">
+								<a href="#"
+									class="uk-button uk-button-primary">Read
+									More</a>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="uk-panel uk-padding-large"
+							style="background-color:rgb(250, 245, 220); height: 100%;"
+							uk-scrollspy-class="uk-animation-slide-right-medium">
+							<div class="tm-grid-expand uk-child-width-expand@s uk-grid-row-large uk-grid-column-small uk-flex-middle"
+								uk-grid>
+								<div class="uk-width-1-3@m">
+									<div class="uk-panel uk-width-1-1">
+										<a href="#"
+											class="uk-inline-clip uk-transition-toggle uk-link-toggle uk-display-block">
+											<img src="./assets/img/blog/7.jpg"
+												alt="">
+										</a>
+									</div>
+								</div>
+								<div class="uk-width-expand@m">
+									<div class="uk-panel uk-width-1-1">
+										<h3
+											class="uk-margin-small-top uk-margin-remove-bottom">
+											<a class="uk-link-reset" href="#">
+												We Can Make A Difference In
+												Families Lives
+											</a>
+										</h3>
+										<div
+											class="uk-text-meta uk-margin-small-top uk-margin-remove-bottom">
+											15 October, 2020
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tm-grid-expand uk-child-width-expand@s uk-grid-row-large uk-grid-column-small uk-flex-middle"
+								uk-grid>
+								<div class="uk-width-1-3@m">
+									<div class="uk-panel uk-width-1-1">
+										<a href="#"
+											class="uk-inline-clip uk-transition-toggle uk-link-toggle uk-display-block">
+											<img src="./assets/img/blog/9.jpg"
+												alt="">
+										</a>
+									</div>
+								</div>
+								<div class="uk-width-expand@m">
+									<div class="uk-panel uk-width-1-1">
+										<h3
+											class="uk-margin-small-top uk-margin-remove-bottom">
+											<a class="uk-link-reset"
+												href="#">Build
+												School For Poor Childrens</a>
+										</h3>
+										<div
+											class="uk-text-meta uk-margin-small-top uk-margin-remove-bottom">
+											15 October, 2020
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tm-grid-expand uk-child-width-expand@s uk-grid-row-large uk-grid-column-small uk-flex-middle"
+								uk-grid>
+								<div class="uk-width-1-3@m">
+									<div class="uk-panel uk-width-1-1">
+										<a href="#"
+											class="uk-inline-clip uk-transition-toggle uk-link-toggle uk-display-block">
+											<img src="./assets/img/blog/8.jpg"
+												alt="">
+										</a>
+									</div>
+								</div>
+								<div class="uk-width-expand@m">
+									<div class="uk-panel uk-width-1-1">
+										<h3
+											class="uk-margin-small-top uk-margin-remove-bottom">
+											<a class="uk-link-reset"
+												href="#">Learn How Access To
+												Clean Water
+											</a>
+										</h3>
+										<div
+											class="uk-text-meta uk-margin-small-top uk-margin-remove-bottom">
+											15 October, 2020
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-12"
+			class="uk-section uk-section-default uk-section-large"
+			uk-scrollspy="target:li > img; cls:uk-animation-scale-down; delay:100">
+			<div class="uk-container uk-container-large">
+				<div class="uk-position-relative">
+					<div class="uk-slider-container uk-text-left uk-margin uk-visible-toggle"
+						uk-slider="autoplay:1">
+						<ul class="uk-slider-items tm-grid-expand uk-child-width-1-4@m uk-child-width-1-5@l logos-grid"
+							uk-grid>
+							<li>
+								<img src="./assets/img/sponsor/logo-1.svg"
+									alt="">
+							</li>
+							<li>
+								<img src="./assets/img/sponsor/logo-2.svg"
+									alt="">
+							</li>
+							<li>
+								<img src="./assets/img/sponsor/logo-3.svg"
+									alt="">
+							</li>
+							<li>
+								<img src="./assets/img/sponsor/logo-4.svg"
+									alt="">
+							</li>
+							<li>
+								<img src="./assets/img/sponsor/logo-5.svg"
+									alt="">
+							</li>
+							<li>
+								<img src="./assets/img/sponsor/logo-6.svg"
+									alt="">
+							</li>
+						</ul>
+						<div class="uk-margin-small">
+							<a class="uk-position-center-left-out uk-position-small"
+								href="#" uk-slidenav-previous=""
+								uk-slider-item="previous"></a>
+							<a class="uk-position-center-right-out uk-position-small"
+								href="#" uk-slidenav-next=""
+								uk-slider-item="next"></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section id="section-13"
+			class="uk-section uk-section-large uk-padding-remove-vertical">
+			<div class="tm-grid-expand uk-child-width-1-1 uk-margin-remove-bottom"
+				uk-grid>
+				<div>
+					<!-- <iframe width="100%" height="450" style="color: red;"
+						src="https://maps.google.com/maps?q=dhaka&t=&z=11&ie=UTF8&iwloc=&output=embed"
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+					</iframe> -->
+					<div id="contact-map" style="width: 100%;  height: 450px;">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-14"
+			class="uk-section uk-section-default uk-padding-remove-vertical"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay: false;">
+			<div class="tm-grid-expand uk-grid-collapse uk-margin-small"
+				uk-grid>
+				<div class="uk-grid-item-match uk-width-1-2@m">
+					<div class="uk-tile  uk-tile-medium"
+						style="background-color: #50BAC3;">
+						<h3 class="uk-h2 uk-margin uk-text-center"
+							uk-scrollspy-class>
+							Sponsor an entire trending project
+							</h2>
+							<div class="uk-margin-top uk-text-center"
+								uk-scrollspy-class>
+								<a href="#"
+									class="uk-button uk-button-primary">Become
+									an
+									Sponsor</a>
+							</div>
+					</div>
+				</div>
+				<div class="uk-grid-item-match uk-width-1-2@m">
+					<div class="uk-tile uk-tile-muted uk-tile-medium"
+						style="background-color: #863BAE;">
+						<h3 class="uk-h2 uk-margin uk-text-center"
+							uk-scrollspy-class>
+							Take a look a the popular causes
+							</h2>
+							<div class="uk-margin-top uk-text-center"
+								uk-scrollspy-class>
+								<a href="#"
+									class="uk-button uk-button-primary">View
+									all causes</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-15"
+			class="uk-section uk-section-secondary uk-section-large"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-medium; delay:150;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-margin" uk-grid>
+					<div class="uk-width-1-1@m">
+						<h2 class="uk-h1 uk-width-expand@s uk-text-center"
+							uk-scrollspy-class>
+							Newsletter</h2>
+						<div class="uk-margin-top uk-margin-remove-bottom uk-text-center uk-width-expand@s"
+							uk-scrollspy-class>
+							Stay Updated</div>
+					</div>
+					<div class="uk-grid-item-match uk-width-1-1@m">
+						<div class="uk-flex uk-flex-center uk-margin-large-bottom"
+							uk-scrollspy-class>
+							<form action="#" class="uk-form uk-panel">
+								<div class="tm-grid-expand uk-grid-collapse"
+									uk-grid>
+									<div
+										class="uk-width-xlarge@s uk-width-expand">
+										<input type="email"
+											class="uk-input uk-form-large"
+											name="email" id="email"
+											placeholder="Sign up for Newsletter"
+											required>
+									</div>
+									<div class="uk-width-auto">
+										<button
+											class="uk-button uk-button-primary">Subscribe</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="tm-grid-expand uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-5@m"
+					uk-grid>
+					<div uk-scrollspy-class>
+						<h3 class="uk-h4 uk-margin">About</h3>
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Causes</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">About</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">New
+										Campaign</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Site
+										Map</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Events</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div uk-scrollspy-class>
+						<h3 class="uk-h4 uk-margin">Links</h3>
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Podcasts</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Privacy
+										Policy</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Videos</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Terms
+										of Use</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div uk-scrollspy-class>
+						<h3 class="uk-h4 uk-margin">Explore</h3>
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Press
+										Release</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Contact</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Blog
+										Posts</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Social
+										Connect</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Help
+										Topics</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div uk-scrollspy-class>
+						<h3 class="uk-h4 uk-margin">Blog</h3>
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Care
+										for All People</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Build
+										school for kids</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Being
+										Volunteer</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">Raise
+										fund to help</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div uk-scrollspy-class>
+						<h3 class="uk-h4 uk-margin">Contact</h3>
+						<ul class="uk-list">
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">643
+										Broklyn Stree, 97 New York</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">needhelp@oxpitan.com</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-link-muted uk-margin-remove-last-child">777
+										666 555</a>
+								</div>
+							</li>
+							<li>
+								<div class="uk-panel">
+									<a href="#"
+										class="uk-icon-button uk-margin-small-right uk-icon"
+										uk-icon="twitter"></a>
+									<a href="#"
+										class="uk-icon-button uk-margin-small-right uk-icon"
+										uk-icon="pinterest"></a>
+									<a href="#"
+										class="uk-icon-button uk-margin-small-right uk-icon"
+										uk-icon="instagram"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="uk-section uk-section-default uk-section-small"
+			uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-slide-bottom-small; delay:400;">
+			<div class="uk-container uk-container-large">
+				<div class="tm-grid-expand uk-grid-row-small uk-grid-margin-small"
+					uk-grid>
+					<div class="uk-width-1-1@m">
+						<div class="uk-panel uk-text-center">
+							<h2 class="uk-h5 uk-text-muted" uk-scrollspy-class>
+								&copy; 2020-
+								Oxpitan.
+								All rights reserved. Powered by <a
+									class="uk-link-reset"
+									href="https://bdthemes.com/">BdThemes</a>
+								Limited.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- offcanvas modal  -->
+		<div id="mobile-menu" uk-offcanvas overlay>
+			<div class="uk-offcanvas-bar">
+				<button class="uk-offcanvas-close" type="button"
+					uk-close></button>
+				<div class="tm-grid-expand uk-child-width-1-1" uk-grid>
+					<div>
+						<div class="uk-panel uk-padding-small">
+							<ul class="uk-nav uk-nav-default uk-nav-parent-icon"
+								uk-nav>
+								<li class="uk-parent">
+									<a href="#">Home</a>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">Home 1</a>
+										</li>
+										<li><a href="#">Home 2</a>
+										</li>
+									</ul>
+								</li>
+
+								<li><a href="#">Events</a></li>
+								<li class="uk-parent">
+									<a href="#">Shop</a>
+									<ul class="uk-nav-sub">
+										<li><a href="#">Product
+												Types</a>
+											<ul class="uk-nav-sub">
+												<li><a href="#">Simple
+														Product</a>
+												</li>
+												<li><a href="#">External
+														/ Affiliate
+														Product</a>
+												</li>
+												<li><a href="#">Grouped
+														Products</a>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">Shop
+												Templates</a>
+											<ul class="uk-nav-sub">
+												<li><a href="#">Shop
+														Standard</a>
+												</li>
+												<li><a href="#">Shop
+														standard 4
+														Columns</a>
+												</li>
+												<li><a href="#">Grouped
+														Products</a>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">Shop
+												Shortcodes</a>
+											<ul class="uk-nav-sub">
+												<li><a href="#">Products
+														By ID</a>
+												</li>
+												<li><a href="#">Products
+														By Sku</a>
+												</li>
+												<li><a href="#">Recent
+														Products</a>
+												</li>
+												<li><a href="#">Sale
+														roducts</a>
+												</li>
+												<li><a href="#">Top
+														Rated
+														Products</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="uk-parent">
+									<a href="#">News</a>
+									<ul class="uk-nav-sub">
+										<li><a href="#">News</a>
+										</li>
+										<li><a href="#">News II</a>
+										</li>
+										<li><a href="#">Single</a>
+										</li>
+									</ul>
+								</li>
+								<li class="uk-parent">
+									<a href="#">Pages</a>
+									<ul class="uk-nav-sub">
+										<li><a href="#">About
+												Page</a>
+										</li>
+										<li><a href="#">Volunteer</a>
+										</li>
+										<li><a href="#">Become a
+												Volunteer</a></li>
+										<li><a href="#">Sponsors</a>
+										</li>
+										<li><a href="#">Our
+												Gallery</a>
+										</li>
+										<li><a href="#">My
+												Account</a>
+										</li>
+										<li><a href="#">Portfolio</a>
+										</li>
+										<li><a href="#">404 Page</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mini-cart" uk-offcanvas="flip: true; overlay: true">
+			<div
+				class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+				<button class="uk-offcanvas-close uk-close uk-icon"
+					type="button" data-uk-close></button>
+				<hr class="uk-margin-large-top">
+				<p>No products in the cart.</p>
+			</div>
+		</div>
+		<div id="search-icon" uk-modal>
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button"
+					uk-close></button>
+				<div class="uk-modal-body">
+					<div class="uk-margin">
+						<form action="#"
+							class="uk-form uk-search uk-width-expand uk-search-default"
+							widt>
+							<input type="search"
+								class="uk-search-input uk-form-large">
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/uikit.min.js">
+	</script>
+	<script src="assets/js/uikit-icons.min.js">
+	</script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLjAgGSTpDmFB416krIRIkVXEDTan_QYU&callback">
+		</script>
+	<script src="assets/js/script.js"></script>
+
+
+</body>
+
+</html>

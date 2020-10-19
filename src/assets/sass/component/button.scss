@@ -1,0 +1,16 @@
+.uk-button {
+  font-size: 12px;
+  line-height: 68px;
+  letter-spacing: 1.5px;
+  padding: 0 35px;
+  border-radius: 5px;
+  font-family: $base-heading-font-family;
+  font-weight: 600;
+}
+.uk-button-primary {
+  text-transform: capitalize;
+  border-radius: 500px;
+  line-height: 42px;
+  background-color: $bg-color-1;
+  font-family: $global-font-family;
+}

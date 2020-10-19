@@ -1,0 +1,51 @@
+// ===========================
+//GLOBAL SETTINGS
+// ===========================
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@400;500;600&display=swap');
+$global-font-family: 'Poppins', serif;
+$global-font-size: 16px;
+$base-body-font-weight: 400;
+$global-line-height: 1.75;
+
+// ===========================
+//COLOR & BACKGROUND
+// ===========================
+$global-color: #818181;
+$global-primary-background: #dc4229;
+
+
+// ===========================
+//LINK
+// ===========================
+// $global-link-hover-color: $global-primary-background;
+$base-link-hover-text-decoration: none;
+
+// ===========================
+//SELECTION
+// ===========================
+$base-selection-color: #fff;
+$base-selection-background: #dc4229;
+
+// ===========================
+//HEADING
+// ===========================
+$base-heading-font-family: "Playfair Display", sans-serif;
+$base-heading-font-weight: 500;
+
+// ===========================
+//CONTAINER
+// ===========================
+$container-large-max-width: 1200px;
+
+// ===========================
+//OFFCANVAS
+// ===========================
+// $offcanvas-bar-background: #fff;
+$navbar-background: #fff;
+
+// $overlay-primary-background:
+
+$bg-color-1: #DF6126;
+// $bg-color-2: #FBC01C;
+// $bg-color-3: #0095E7;
+// $bg-color-4: #7DA952;
